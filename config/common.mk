@@ -182,20 +182,26 @@ PRODUCT_PACKAGES += \
 
 # Custom COS packages
 PRODUCT_PACKAGES += \
+    ApexLauncher \
     ChaOSLauncher \
-    DSPManager \
-    libcyanogen-dsp \
-    audio_effects.conf \
     Flypaper \
-    Apollo \
+    Focal \
     COSUpdater \
     CMFileManager \
     Firewall \
     LockClock \
     PermissionsManager \
+    RootExplorer \
     ThemeManager \
     Superuser \
     su
+
+# DSPManager
+PRODUCT_PACKAGES += \
+    Apollo \
+    DSPManager \
+    libcyanogen-dsp \
+    audio_effects.conf
 
 # Extra tools in COS
 PRODUCT_PACKAGES += \
