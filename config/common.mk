@@ -174,11 +174,11 @@ PRODUCT_PACKAGES += \
     SpareParts
 
 # Optional COS packages
-PRODUCT_PACKAGES += \
-    VideoEditor \
-    VoiceDialer \
-    SoundRecorder \
+# PRODUCT_PACKAGES += \
     Basic
+#    VideoEditor \
+#    VoiceDialer \
+#    SoundRecorder \
 
 # Custom COS packages
 PRODUCT_PACKAGES += \
